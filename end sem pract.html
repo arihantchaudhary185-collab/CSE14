@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Feedback Form</title>
+</head>
+
+<body>
+
+    <h2>Online Feedback Form</h2>
+
+    <form>
+
+        <!-- Name -->
+        <label>Full Name:</label><br>
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Rating -->
+        <label>Rating:</label><br>
+        <select name="rating" required>
+            <option value="">Select rating</option>
+            <option value="5">Excellent (5)</option>
+            <option value="4">Very Good (4)</option>
+            <option value="3">Good (3)</option>
+            <option value="2">Average (2)</option>
+            <option value="1">Poor (1)</option>
+        </select>
+        <br><br>
+
+        <!-- Comment -->
+        <label>Comments:</label><br>
+        <textarea name="comment" rows="5" cols="30" placeholder="Enter your comments" required></textarea>
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit Feedback">
+
+        <!-- Reset button -->
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+
+</html>
